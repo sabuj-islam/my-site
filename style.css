@@ -1,0 +1,42 @@
+body{
+    font-family: 'Rosario', sans-serif;
+    margin: 0px;
+}
+.name{
+    font-size: 40px;
+    color: palevioletred;
+}
+.button-hire-me{
+    color: white;
+    background-color: palevioletred;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+    margin-top: 7%;
+}
+.sabuj-banar{
+    background-image: url("picture/header-bg.png");
+    background-size: cover;
+}   
+section{
+    height: 500px;
+       
+}
+.link-button{
+    text-decoration: none;
+    background-color: palevioletred;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: mintcream;
+    font-weight: 700px;
+    background-image: linear-gradient(45deg mintcream, palevioletred);
+
+}
