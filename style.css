@@ -2,8 +2,12 @@ body{
     font-family: 'Rosario', sans-serif;
     margin: 0px;
 }
+footer{font-family: 'Rosario', sans-serif;
+    margin: 0px;
+
+}
 .name{
-    font-size: 40px;
+    font-size: 30px;
     color: palevioletred;
 }
 .button-hire-me{
@@ -11,15 +15,16 @@ body{
     background-color: palevioletred;
 }
 .half-width{
-    width: 40%;
+    width: 35%;
+    height: 25%;
     float: left;
     margin-left: 5%;
     margin-top: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
     
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
     margin-top: 7%;
 }
 .sabuj-banar{
@@ -27,8 +32,12 @@ body{
     background-size: cover;
 }   
 section{
-    height: 500px;
+    height: 200px;
+    padding: 50px;
        
+}
+.font-size{
+    font-size: 10px;
 }
 .link-button{
     text-decoration: none;
@@ -38,5 +47,69 @@ section{
     color: mintcream;
     font-weight: 700px;
     background-image: linear-gradient(45deg mintcream, palevioletred);
+}
 
+.biogrephy-area{
+    background-image: url("picture/biography-bg.png");
+    background-size: cover;
+}
+section{
+    height: 300px;
+}
+
+.my-work{
+    width: 100%;
+    height: 80%;
+    padding-left: 2%;
+   
+    
+}
+.my-latest-work-banar{
+    background-image: url( picture/latest-work-bg.png);
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+.text{
+    text-align: center;
+    
+    
+}
+.my-work img{
+    height: 65%;
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    
+    
+    }
+    section{
+        height: 300px;
+    }
+.client-banar{
+    background-image: url(picture/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.text-aling{
+    text-align: center;
+}
+.box{
+    text-decoration: none;
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: mintcream;
+    font-weight: 100px;
+    background-image: linear-gradient(45deg mintcream, palevioletred);
+    height: 100px;
+    width: 200;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.a{line-height: 20%;}
+.footer{
+    text-align: center;
+    color: rgb(125, 131, 128);
+    padding-bottom: 40px;
 }
